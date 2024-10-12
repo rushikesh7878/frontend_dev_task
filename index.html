@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Boxes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Box 1 -->
+        <div class="box" id="box1">
+            <div class="radio-wrapper">
+                <input type="radio" name="unit" id="radio1" class="radio">
+            </div>
+            <div class="content-wrapper">
+                <label for="radio1">
+                    <div class="label-content">
+                        <div class="unit-price">
+                            <div class="unit-info">
+                                <h3>1 Unit</h3>
+                                <p class="discount">10% Off</p>
+                            </div>
+                            <p class="standard-price">Standard Price</p>
+                        </div>
+                        <div class="price-info">
+                            <p class="current-price" data-price="10.00">$10.00 USD</p>
+                            <p class="original-price">$24.00 USD</p>
+                        </div>
+                    </div>
+                </label>
+                <div class="content hidden-content">
+                    <div class="column">
+                        <h4>Size</h4>
+                        <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        
+                    </div>
+                    <div class="column">
+                        <h4>Color</h4>
+                        <select>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Box 2 -->
+        <div class="box" id="box2">
+            <div class="radio-wrapper">
+                <input type="radio" name="unit" id="radio2" class="radio">
+            </div>
+            <div class="content-wrapper">
+
+                <label for="radio2">
+                    <div class="label-content">
+                        <div class="unit-price">
+                            <div class="unit-info">
+                                <h3>2 Units</h3>
+                                <p class="discount">20% Off</p>
+                            </div>
+                            <p class="standard-price">Standard Price</p>
+                        </div>
+                        <div class="price-info">
+                            <p class="current-price" data-price="18.00">$18.00 USD</p>
+                            <p class="original-price">$24.00 USD</p>
+                        </div>
+                    </div>
+                </label>
+                <div class="content hidden-content">
+                    <div class="column">
+                        <h4>Size</h4>
+                        <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="column">
+                        <h4>Color</h4>
+                        <select>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                        <select>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="box" id="box3">
+            <div class="radio-wrapper">
+                <input type="radio" name="unit" id="radio3" class="radio">
+            </div>
+            <div class="content-wrapper">
+                <label for="radio3">
+                    <div class="label-content">
+                        <div class="unit-price">
+                            <div class="unit-info">
+                                <h3>3 Units</h3>
+                                <p class="discount">30% Off</p>
+                            </div>
+                            <p class="standard-price">Standard Price</p>
+                        </div>
+                        <div class="price-info">
+                            <p class="current-price" data-price="24.00">$24.00 USD</p>
+                            <p class="original-price">$24.00 USD</p>
+                        </div>
+                    </div>
+                </label>
+
+                <div class="content hidden-content">
+                    <div class="column">
+                        <h4>Size</h4>
+                        <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <select>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="column">
+                        <h4>Color</h4>
+                        <select>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                        <select>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                        <select>
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <div class="free_del">
+                <p>Free Delivery</p>
+            </div>
+            <div class="price-info">
+                <p class="current-price"><span id="total-price">Total : $10.00 USD</span> </p>
+            </div>
+        </div>
+
+        <div class="add_to_cart">
+            <p>+ Add to Cart</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
